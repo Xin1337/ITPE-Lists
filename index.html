@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3;
+}
+
+ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+ol > li:before {
+  content: counters(item, ".") ".0 ";
+  display: table-cell;
+  padding-right: 0.6em;
+}
+
+li ol > li {
+  margin: 0;
+}
+
+li ol > li:before {
+  content: counters(item, ".") " ";
+}
+    </style>
+</head>
+<body>
+    <center><b>Table of Contents</b></center>
+    <br>
+
+    <ol>
+  <li>Executive Summary
+    <ol>
+      <li>Mission</li>
+      <li>Objectives</li>
+    </ol>
+  </li>
+
+  <li>Start-up Summary
+     <ol>
+      <li>Company Ownership</li>
+    </ol>
+  </li>
+
+  <li>Products
+    <ol>
+      <li>Sourcing</li>
+      <li>Technology</li>
+      <li>Future Products</li>
+    </ol>
+  </li>
+
+  <li>Products
+    <ol>
+      <li>Industry Analysis
+        <ol>
+        <li>Main Competitors</li>
+        </ol>
+        </li>
+    </ol>
+  </li>
+
+  <li>Strategy and Implementation Summary
+    <ol>
+        <li>Value Proposition</li>
+        <li>Competitive Edge</li>
+      <li>Marketing Strategy
+        <ol>
+        <li>Distribution Strategy</li>
+        <li>Pricing Strategy</li>
+        <li>Marketing Programs</li>
+        <li>Strategic Alliances</li>
+        </ol>
+        </li>
+    </ol>
+  </li>
+
+  <li>Management Summary
+    <ol>
+        <li>Personnel Plan</li>
+    </ol>
+  </li>
+
+  <li>Sales Strategy</li>
+
+  <li>Financial Plan
+    <ol>
+        <li>Important Assumptions</li>
+        <li>Projected Profit and Loss</li>
+        <li>Projected Cash Flow</li>
+        <li>Projected Balance Sheet</li>
+        <li>Projected Business Ratios</li>
+    </ol>
+  </li>
+    </ol>
+    <ul style="list-style-type: none;">
+        <li>Appendix</li>
+        <ul>
+            <li>12 Month Detail: Sales Forecast Table</li>
+            <li>12 Month Detail: Sales Forecast Table</li>
+            <li>12 Month Detail: Sales Forecast Table</li>
+            <li>12 Month Detail: Sales Forecast Table</li>
+            <li>12 Month Detail: Sales Forecast Table</li>
+        </ul>
+    </ul>
+</body>
+</html>
